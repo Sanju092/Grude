@@ -48,7 +48,8 @@ android {
                 "/META-INF/{AL2.0,LGPL2.1}",
                 "META-INF/DEPENDENCIES",
                 "META-INF/LICENSE.md",
-                "META-INF/LICENSE-notice.md"
+                "META-INF/LICENSE-notice.md",
+                "OSGI-INF/l10n/plugin.properties"
             )
         }
     }
