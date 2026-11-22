@@ -178,6 +178,7 @@ class LocalGitEngine(private val context: Context) {
                 val targetDir = repoDirFor(repoFullName)
                 Git.open(targetDir).use { git ->
                     git.checkout().setCreateBranch(createNew).setName(branchName).call()
+                    Unit
                 }
             }
         }
